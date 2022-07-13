@@ -1,1 +1,1 @@
-export { default as adminService } from './adminService';
+import adminService from "./adminService";
