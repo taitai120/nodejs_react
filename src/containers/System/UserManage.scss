@@ -1,0 +1,96 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .action-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+  }
+
+  .btn-delete {
+
+  }
+  
+  .btn-delete:hover {
+    background: crimson;
+  }
+
+  .btn-edit {
+    margin-right: 1rem;
+  }
+
+  .btn-edit:hover {
+    background: gray;
+  }
+
+  .btn-add {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0 1.2rem;
+  }
+
+  .modal-user-container {
+    .modal-header {
+      background: crimson !important;
+
+      button {
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        font-size: 2rem;
+        font-weight: 600;
+        background: none;
+        color: white;
+      }
+    }
+
+    .modal-user-body {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+  
+        input {
+          border-radius: 3px;
+          height: 30px;
+          padding: 0.3rem 0.5rem;
+          border: 1px solid grey;
+          outline: none;
+        }
+
+         &.max-width-input {
+          width: 100%;
+         }
+      }
+    }
+  }

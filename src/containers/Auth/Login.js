@@ -97,7 +97,7 @@ class Login extends Component {
                   onChange={this.handleOnChange}
                 />
                 <i
-                  class={
+                  className={
                     this.state.turnOnPassword === false
                       ? "fa-solid fa-eye"
                       : "fa-solid fa-eye-slash"
@@ -107,7 +107,7 @@ class Login extends Component {
               </div>
             </div>
             <div className="col-12">
-              <p class="text-danger">{this.state.errMessage}</p>
+              <p className="text-danger">{this.state.errMessage}</p>
             </div>
             <div className="col-12">
               <button className="btn-login" onClick={this.handleLogin}>
@@ -115,14 +115,14 @@ class Login extends Component {
               </button>
             </div>
             <div className="col-12">
-              <span class="forgot-password">Forgot your password?</span>
+              <span className="forgot-password">Forgot your password?</span>
             </div>
-            <div class="col-12 text-center mt-3">
+            <div className="col-12 text-center mt-3">
               <span className="text-other-login">Or login with:</span>
             </div>
-            <div class="col-12 social-login mt-3">
-              <i class="fa-brands fa-google-plus-g google"></i>
-              <i class="fa-brands fa-facebook-f facebook"></i>
+            <div className="col-12 social-login mt-3">
+              <i className="fa-brands fa-google-plus-g google"></i>
+              <i className="fa-brands fa-facebook-f facebook"></i>
             </div>
           </div>
         </div>
